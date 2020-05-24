@@ -10,7 +10,7 @@ FMCG(Fast-Moving Consumer Goods) brands require insights into retail shelves to 
 Given a grocery store shelf image, detect all products present in the shelf image (detection only at product or no-product level) with only **one anchor box per feature-map cell**.
 
 ## Dataset:
-* The [dataset](https://github.com/gulvarol/grocerydataset) to be used for training/testing is the Grocery dataset. Link to the dataset: https://github.com/gulvarol/grocerydataset
+* The [dataset](https://github.com/gulvarol/grocerydataset) used for training/testing is the Grocery dataset. Link to the dataset: https://github.com/gulvarol/grocerydataset
 * Please use the following [link](https://storage.googleapis.com/open_source_datasets/ShelfImages.tar.gz) to download ShelfImages.tar.gz(contains train and test splits) and replace GroceryDataset_part1/ShelfImages with this.
 https://storage.googleapis.com/open_source_datasets/ShelfImages.tar.gz
 
