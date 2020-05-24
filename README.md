@@ -60,7 +60,7 @@ parameters/hyper-parameters and anchor box tuning.
 **Detection network used:** A standard [SSD]("https://arxiv.org/pdf/1512.02325.pdf") architecture is used in this implementation. <br/>
 * Default parameters used are as mentioned in the Max deGroot's implentation.
 * Total number of classes are 2: one for the product and one for the backgorund class (no product). 
-* For the anchor box: As mentioned in the problem statemnt only 1 anchor box per feture map is allowed. we use 6 feture maps (38, 19, 10, 5, 3, 1) as mentioned in the paper with only 1 anchor box each. Additionally the number of default boxes are: 1940 because of the 1 anchor box used for each feature map. We use a fixed ratio (width ot height) for the anchor box used i.e.,"0.10, 0.12". The reason is explained in **Q&A** Section.
+* For the anchor box: As mentioned in the problem statemnt only 1 anchor box per feture map is allowed. we use 6 feture maps (38, 19, 10, 5, 3, 1) as mentioned in the paper with only 1 anchor box each. Additionally the number of default boxes are: 1940 because of the 1 anchor box used for each feature map. We use a fixed ratio (width to height) for the anchor box used i.e.,"0.10:0.12". The reason is explained in **Q&A** Section.
 
 
 **This is the first draft and a considerable speed increase can be achieved for a particular dataset.**
