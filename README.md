@@ -1,3 +1,4 @@
+*Tested on Ubuntu 18.04.*
 **To reproduce the results please read the README present in the source folder.**
 
 *<sub>The [single shot object detector](https://arxiv.org/pdf/1512.02325.pdf) (SSD) implementation used in this project is heavily based on the **[Max deGroot's](https://github.com/amdegroot/ssd.pytorch)** pytorch implementation. I strongly recommend to look at his repo</sub>*
