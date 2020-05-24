@@ -1,6 +1,6 @@
-To reproduce the results please run the "run.sh" bash script present in the source_code folder. Before running the script read the README.md of the source folder.
+**To reproduce the results please read the README.md present in the source folder.**
 
-*The [single shot object detector](https://arxiv.org/pdf/1512.02325.pdf) (SSD) implementation used in this project is heavily based on the [Max deGroot's](https://github.com/amdegroot/ssd.pytorch) pytorch implementation. I strongly recommend to look at his repo*
+*<sub>The [single shot object detector](https://arxiv.org/pdf/1512.02325.pdf) (SSD) implementation used in this project is heavily based on the **[Max deGroot's](https://github.com/amdegroot/ssd.pytorch)** pytorch implementation. I strongly recommend to look at his repo</sub>*
 
 # Overview: 
 FMCG(Fast-Moving Consumer Goods) brands require insights into retail shelves to help them improve their sales. One such insight comes from determining how many products of their brands’ are present versus how many products of competing brands are present on a retail store shelf. This requires finding the total number of products present on every shelf in a retail store.
